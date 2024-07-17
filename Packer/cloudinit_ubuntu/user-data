@@ -1,0 +1,13 @@
+#cloud-config
+
+system_info:
+  default_user:
+    name: ubuntu
+    home: ubuntu
+
+password: ubuntu
+
+chpasswd:
+  expire: False
+  
+ssh_pwauth: True
