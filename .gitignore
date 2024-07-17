@@ -1,0 +1,4 @@
+edk2-stable202402-r1-bin
+Firmware
+Packer/image_*
+Packer/cloudinit_ubuntu.img
