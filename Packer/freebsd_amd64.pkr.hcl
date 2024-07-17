@@ -11,8 +11,8 @@ source "qemu" "freebsd" {
   iso_url           = "http://ftp.freebsd.org/pub/FreeBSD/releases/VM-IMAGES/14.1-RELEASE/amd64/Latest/FreeBSD-14.1-RELEASE-amd64-zfs.raw.xz"
   iso_checksum 		= "sha256:e2c4c42a4abbd10c970d516598ede01a0bbdbb0612c41631a8ec2bf5521e7ab0"
   disk_image 		= true
-  efi_firmware_code = "/Users/herold/Virtual Machines/Firmware/code-freebsd-amd64.img"
-  efi_firmware_vars = "/Users/herold/Virtual Machines/Firmware/vars-freebsd-amd64.img"
+  efi_firmware_code = "../Firmware/code-freebsd-amd64.img"
+  efi_firmware_vars = "../Firmware/vars-freebsd-amd64.img"
   output_directory  = "image_freebsd_amd64"
   qemu_binary       = "qemu-system-x86_64"
   disk_size         = "10G"
