@@ -2,10 +2,10 @@
 
 system_info:
   default_user:
-    name: ubuntu
-    home: ubuntu
+    name: dev
+    home: dev
 
-password: ubuntu
+password: dev
 
 chpasswd:
   expire: False
