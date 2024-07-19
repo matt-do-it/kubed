@@ -7,8 +7,8 @@ qemu-system-aarch64 \
   -cpu host \
   -smp 4 \
   -m 4096 \
-  -drive file=Firmware/code-aarch64.img,format=raw,if=pflash,readonly=on \
-  -drive file=Firmware/vars-aarch64.img,format=raw,if=pflash \
+  -drive file=Firmware/code-freebsd-aarch64.img,format=raw,if=pflash,readonly=on \
+  -drive file=Firmware/vars-freebsd-aarch64.img,format=raw,if=pflash \
   -device virtio-net-pci,netdev=net0 -netdev socket,id=net0,fd=3 \
   -display default,show-cursor=on \
   -device virtio-gpu-pci \

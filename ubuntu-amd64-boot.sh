@@ -3,6 +3,8 @@
 socket_vmnet_client /var/run/socket_vmnet \
 qemu-system-x86_64 \
   -boot strict=off \
+  -machine q35 \
+  -cpu max \
   -accel tcg \
   -smp 4 \
   -m 4096 \

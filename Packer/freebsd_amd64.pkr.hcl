@@ -15,7 +15,7 @@ source "qemu" "freebsd" {
   efi_firmware_vars = "../Firmware/vars-freebsd-amd64.img"
   output_directory  = "image_freebsd_amd64"
   qemu_binary       = "qemu-system-x86_64"
-  disk_size         = "10G"
+  disk_size         = "20G"
   format            = "raw"
   display 			= "cocoa"
   ssh_username      = "root"

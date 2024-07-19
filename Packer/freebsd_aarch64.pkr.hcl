@@ -8,13 +8,13 @@ packer {
 }
 
 source "qemu" "freebsd" {
-  iso_url           = "file:///Users/herold/Virtual%20Machines/Cloud-Images/FreeBSD-14.1-RELEASE-arm64-aarch64-zfs.img"
-  iso_checksum 		= "sha256:c81b98fa4142f4824f223b36c8432514458078ededb7a7fd49b84319702af631"
+  iso_url           = "http://ftp.freebsd.org/pub/FreeBSD/releases/VM-IMAGES/14.1-RELEASE/aarch64/Latest/FreeBSD-14.1-RELEASE-arm64-aarch64-zfs.raw.xz"
+  iso_checksum 		= "sha256:717049647257c9698e61af7e563f03309eccfc7bb0a6a23edef958a42e69a070"
   disk_image 		= true
   output_directory  = "image_freebsd_aarch64"
   qemu_binary       = "qemu-system-aarch64"
   machine_type		= "virt"
-  disk_size         = "10G"
+  disk_size         = "20G"
   format            = "raw"
   accelerator       = "hvf"
   display 			= "cocoa"

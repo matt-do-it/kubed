@@ -15,7 +15,7 @@ source "qemu" "ubuntu" {
   efi_firmware_vars = "../Firmware/vars-ubuntu-amd64.img"
   output_directory  = "image_ubuntu_amd64"
   qemu_binary       = "qemu-system-x86_64"
-  disk_size         = "10G"
+  disk_size         = "20G"
   format            = "raw"
   display 			= "cocoa"
   ssh_username      = "dev"
